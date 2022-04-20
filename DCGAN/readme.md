@@ -1,1 +1,1 @@
-read
+DCGAN implementation using Pytorch
