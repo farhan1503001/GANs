@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 12 11:58:22 2022
-
-@author: Shoumik
-"""
 
 import torch
 import torch.nn as nn
@@ -96,4 +90,4 @@ def test():
     assert gen(z).shape == (N, in_channels, H, W), "Generator test failed"
 
 
-# test()
+test()
